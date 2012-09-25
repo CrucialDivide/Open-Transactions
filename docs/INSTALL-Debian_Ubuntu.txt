@@ -104,7 +104,7 @@ $ export PKG_CONFIG_PATH=$HOME/.local/lib/pkgconfig:$PKG_CONFIG_PATH
 
 # 'stable' (alpha) source tar ball method
 $ wget https://github.com/downloads/randy-waterhouse/opentxs/opentxs-0.84.g.tar.gz
-$ tar -zxvf opentxs.84.g.tar.gz
+$ tar -zxvf opentxs-0.84.g.tar.gz
 $ cd opentxs.84.g
 $ autoreconf -i -f
 $ mkdir build && cd build
